@@ -1,56 +1,23 @@
-.navbar {
+.split-cell {
     display: flex;
-    justify-content: space-between;
-    background-color: brown;
-    padding: 10px 20px;
-    align-items: center;
+    flex-direction: column;
+    background-color: rgb(206, 245, 245);
+    height: 100%;
+    width: 90%;
 }
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.box {
+    border: 1px solid rgb(161, 178, 235);
+    padding: 20px;
+    margin: 5px;
+    background-color=red;
+    text-alignn: center;
 }
-.nav-links li a {
-    color: rgb(240, 236, 236);
-    text-decoration: none;
-    font-size: 16px;
+
+.small-box {
+  width: 50px;
+  height: 25px;
+  border: 1px solid rgb(206, 202, 219);
+  background-color: rgb(137, 183, 223);
+  text-align: center;
+  line-height: 30px;
 }
-.nav-links li a:hover{
-    color:rgb(0, 26, 255)
-}
-.home-section {
-    padding: 40px 10%;
-    display:flex;
-    justify-content:center
-}
-.home-content {
-    display:flex;
-    gap:40px;
-    align-items:center;
-}
-.home-image img {
-    width:350px;
-    height:auto;
-    border-radius:10px;
-}
-.home-intro h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-.home-intro p {
-    font-size: 18px;
-    line-height: 1.%;
-    margin-bottom: 20px;
-}
-.home-btn {
-    padding: 10px 20px;
-    background-color: brown;
-    color: white
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.home-btn:hover {
-    background-color: rgb(25, 0, 139);
-}
-  
